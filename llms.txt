@@ -1,0 +1,18 @@
+# Scrapigator for agents
+
+> Export LinkedIn Sales Navigator leads and accounts through the user's own Chrome extension, then read, filter, summarize, dedupe and send them to webhooks or Google Sheets. Remote MCP server and REST API; included on every plan.
+
+## Connect
+- [MCP server](https://scrapigator.com/mcp): Streamable HTTP. OAuth (Claude.ai, ChatGPT) or `Authorization: Bearer sgk_...`
+- [API docs](https://scrapigator.com/docs/api)
+- [OpenAPI 3.1](https://scrapigator.com/api/v1/openapi.json)
+- [Create an API key](https://scrapigator.com/agents)
+
+## Key facts
+- Exports are asynchronous and run in the user's browser. Statuses: needs_approval, waiting_for_browser, queued, planning, running, paused, finished, partial, failed, cancelled. `next_step` says what the user must do.
+- Searches over 2,500 leads are split automatically. LinkedIn pacing and daily caps cannot be raised through the API.
+- Use summaries and CSV links for big lists; row pages are max 500 (REST) / 100 (MCP).
+- No messaging, connection-request or email-finding features.
+
+## Optional
+- [Claude Code plugin and examples](https://github.com/salmanbareesh/scrapigator-agents)

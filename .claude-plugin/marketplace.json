@@ -1,0 +1,15 @@
+{
+  "name": "scrapigator",
+  "description": "Scrapigator: export LinkedIn Sales Navigator leads from Claude Code",
+  "owner": {
+    "name": "Scrapigator",
+    "url": "https://scrapigator.com"
+  },
+  "plugins": [
+    {
+      "name": "scrapigator",
+      "source": "./plugins/scrapigator",
+      "description": "Remote MCP server plus skills to export, summarize, dedupe and send Sales Navigator leads"
+    }
+  ]
+}

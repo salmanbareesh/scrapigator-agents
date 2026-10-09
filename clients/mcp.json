@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "scrapigator": {
+      "url": "https://scrapigator.com/mcp",
+      "headers": {
+        "Authorization": "Bearer sgk_YOUR_KEY"
+      }
+    }
+  }
+}

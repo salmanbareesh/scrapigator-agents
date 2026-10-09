@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.salmanbareesh/scrapigator",
+  "title": "Scrapigator",
+  "description": "Export LinkedIn Sales Navigator leads via the user's own browser; summarize, dedupe and send them on.",
+  "version": "1.0.0",
+  "websiteUrl": "https://scrapigator.com/docs/api",
+  "repository": { "url": "https://github.com/salmanbareesh/scrapigator-agents", "source": "github" },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scrapigator.com/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Bearer sgk_... API key from https://scrapigator.com/agents (OAuth clients can omit it)", "isRequired": false, "isSecret": true }
+      ]
+    }
+  ]
+}

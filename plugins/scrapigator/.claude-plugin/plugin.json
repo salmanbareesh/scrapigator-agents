@@ -1,0 +1,20 @@
+{
+  "name": "scrapigator",
+  "displayName": "Scrapigator",
+  "version": "1.0.0",
+  "description": "Export LinkedIn Sales Navigator leads and accounts through your own Chrome extension, then summarize, dedupe and send them to webhooks or Google Sheets.",
+  "author": { "name": "Scrapigator", "url": "https://scrapigator.com" },
+  "homepage": "https://scrapigator.com/docs/api",
+  "repository": "https://github.com/salmanbareesh/scrapigator-agents",
+  "license": "MIT",
+  "keywords": ["linkedin", "sales-navigator", "leads", "export", "mcp"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Scrapigator API key",
+      "description": "Create one at https://scrapigator.com/agents (starts with sgk_)",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
